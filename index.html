@@ -128,7 +128,6 @@
     })
 
     function createTeam(teamNames, teamOccupations) {
-      console.log(teamNames)
       function defineSalary(max, min) {
         let salary = Math.trunc(Math.random() * (max - min) + min)
         return salary
@@ -136,7 +135,6 @@
 
       let team = {}
       teamNames.forEach((el, index) => {
-        console.log(el)
         let newObj = {}
 
         newObj.name = el
