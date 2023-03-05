@@ -1,0 +1,20 @@
+* {
+  line-height: 22px;
+}
+.project {
+  display: flex;
+  justify-content: space-evenly;
+}
+.result {
+  min-width: 250px;
+  padding: 10px;
+}
+
+span {
+  color: red;
+}
+input {
+  min-width: 200px;
+  min-height: 30px;
+  margin-bottom: 10px;
+}
